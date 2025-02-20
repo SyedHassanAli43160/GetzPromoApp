@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "getz-promo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getzPromo/GetzPromoWebPart.js",
+          "manifest": "./src/webparts/getzPromo/GetzPromoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetzPromoWebPartStrings": "lib/webparts/getzPromo/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "getz-promo-app-client-side-solution",
+    "id": "a6c15f2b-6dcd-474c-8e39-1e587f3c5f5b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "getz-promo-app description"
+      },
+      "longDescription": {
+        "default": "getz-promo-app description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "getz-promo-app Feature",
+        "description": "The feature that activates elements of the getz-promo-app solution.",
+        "id": "606f83a4-65b0-4511-83fc-4ede3c39fa42",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/getz-promo-app.sppkg"
+  }
+}

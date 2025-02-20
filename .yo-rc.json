@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "getz-promo-app",
+    "libraryId": "a6c15f2b-6dcd-474c-8e39-1e587f3c5f5b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "getz-promo-app",
+    "solutionShortDescription": "getz-promo-app description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
